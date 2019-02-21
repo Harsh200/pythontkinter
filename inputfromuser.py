@@ -1,6 +1,6 @@
 from tkinter import *
 def printvalue():
-    print*userwrote.get())
+    print(userwrote.get())
 
 window=Tk()
 userwrote = StringVar()
