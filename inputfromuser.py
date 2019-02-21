@@ -2,6 +2,7 @@ from tkinter import *
 def printvalue():
     print(userwrote.get())
 
+
 window=Tk()
 userwrote = StringVar()
 userwrote.trace("w",lambda name,index,mode:printvalue)
